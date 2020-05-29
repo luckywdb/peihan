@@ -1,0 +1,11 @@
+{application,peihan,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{peihan_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[peihan_app,peihan_cfg,peihan_lib,peihan_log,
+                        peihan_reload,peihan_sup,peihan_tcp]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
